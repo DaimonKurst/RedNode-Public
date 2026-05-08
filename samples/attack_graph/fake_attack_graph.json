@@ -1,0 +1,16 @@
+{
+  "graph_id": "demo-attack-graph-001",
+  "scope": "synthetic",
+  "nodes": [
+    {"id": "api_surface", "label": "API Surface", "risk": "low"},
+    {"id": "auth_context", "label": "Authorization Context", "risk": "medium"},
+    {"id": "identity_boundary", "label": "Identity Boundary", "risk": "medium"},
+    {"id": "review_gate", "label": "Human Review Gate", "risk": "controlled"}
+  ],
+  "edges": [
+    {"from": "api_surface", "to": "auth_context", "relationship": "requires_context"},
+    {"from": "auth_context", "to": "identity_boundary", "relationship": "trust_boundary_analysis"},
+    {"from": "identity_boundary", "to": "review_gate", "relationship": "requires_validation"}
+  ],
+  "disclaimer": "Synthetic public demo graph. No exploit payloads, no client data, no live target data."
+}

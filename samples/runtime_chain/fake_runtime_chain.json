@@ -1,0 +1,18 @@
+{
+  "chain_id": "demo-chain-001",
+  "mode": "SAFE_READ_ONLY",
+  "nodes": [
+    {"id": "TARGET_INIT", "type": "workspace", "status": "completed"},
+    {"id": "HAR_ANALYSIS", "type": "analysis", "status": "completed"},
+    {"id": "ENDPOINT_EXTRACTION", "type": "surface_mapping", "status": "completed"},
+    {"id": "ATTACK_SURFACE_MAPPING", "type": "intelligence", "status": "completed"},
+    {"id": "HUMAN_REVIEW", "type": "governance", "status": "required"}
+  ],
+  "edges": [
+    ["TARGET_INIT", "HAR_ANALYSIS"],
+    ["HAR_ANALYSIS", "ENDPOINT_EXTRACTION"],
+    ["ENDPOINT_EXTRACTION", "ATTACK_SURFACE_MAPPING"],
+    ["ATTACK_SURFACE_MAPPING", "HUMAN_REVIEW"]
+  ],
+  "notes": "Synthetic runtime chain. No real target data."
+}

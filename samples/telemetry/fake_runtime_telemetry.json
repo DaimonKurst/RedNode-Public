@@ -1,0 +1,14 @@
+{
+  "run_id": "demo-run-001",
+  "mode": "SAFE_READ_ONLY",
+  "target": "https://example.com",
+  "backend": "online",
+  "telemetry": "streaming",
+  "execution_state": "completed",
+  "queue": 1,
+  "findings": 0,
+  "risk": "low",
+  "confidence": 0.45,
+  "recommendation": "PASSIVE_RECON",
+  "notes": "Synthetic telemetry sample for public documentation only."
+}
