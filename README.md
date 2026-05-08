@@ -195,3 +195,68 @@ Unauthorized usage is prohibited.
 
 ![RedNode Runtime Graph](assets/screenshots/runtime_graph.png)
 
+
+---
+
+# Runtime Intelligence Topology
+
+![Runtime Topology](assets/diagrams/png/runtime_topology.png)
+
+Runtime-aware execution topology showing governance-aware telemetry propagation,
+runtime intelligence orchestration, evidence correlation, and human review flow.
+
+---
+
+# Attack Chain Flow
+
+![Attack Chain](assets/diagrams/png/attack_chain_flow.png)
+
+High-level offensive intelligence execution flow focused on attack surface mapping,
+signal correlation, runtime governance, and evidence-aware reporting.
+
+---
+
+# Governance Layer
+
+![Governance](assets/diagrams/png/governance_layer.png)
+
+Execution governance architecture responsible for:
+
+- SAFE_READ_ONLY enforcement
+- scope validation
+- authorization gates
+- runtime policy enforcement
+- telemetry-aware execution control
+- evidence-aware human review
+
+---
+
+# Runtime Chain Graph
+
+![Runtime Chain Graph](assets/diagrams/png/runtime_chain_graph.png)
+
+Runtime chain propagation model visualizing:
+
+- HAR ingestion
+- endpoint extraction
+- attack surface intelligence
+- auth-context analysis
+- signal escalation
+- evidence linkage
+- review boundaries
+
+---
+
+# Public Research Direction
+
+Current public research directions include:
+
+- Runtime-Aware Offensive Security
+- Telemetry-Driven Security Intelligence
+- Attack-Chain Correlation
+- Execution Governance
+- Behavioral Security Analysis
+- Autonomous Security Research Pipelines
+- Evidence Correlation Systems
+- Runtime Graph Intelligence
+
